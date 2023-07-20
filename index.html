@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/estilos/estilossw">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <title>CgMedia</title>
 </head>
 <body>
@@ -15,11 +18,47 @@
             <h1>Grafica-Design-Programing</h1>
         </p>
     </header>
-    <main>
-    <div class="carrusel small_box">
-        <p>Carrusel</p>
+
+    
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-001.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-002.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-005.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-006.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-007.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-008.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-009.jpg" />
+      </div>
     </div>
-    </main>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-scrollbar"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+   
+   
     <footer>
         <div class="contenedor">
         <div class="contacto_wapp small_box">+54 9 11 3049 4419</div>
@@ -36,6 +75,37 @@
 
         </div>
     </footer>
-    
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      centeredSlides: false,
+      slidesPerGroupSkip: 1,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        769: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+        },
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 </html>
