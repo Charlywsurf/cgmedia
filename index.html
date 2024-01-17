@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="/js/main.js" defer></script>
+    <title>CgMedia</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="/img/logo.png" alt="">
+                <p>CgMedia</p></div>
+                <button class="logo-toggle"><i class="uil uil-bars"></i></button>
+            <ul class="nav-bar">
+                <li class="nav-item">
+                    <nav-link><a class="nav-link" href="#">Bio</a></nav-link>
+                </li>
+                <li class="nav-item">
+                    <nav-link><a class="nav-link" href="#">Servicios</a></nav-link>
+                </li>
+                <li class="nav-item">
+                    <nav-link><a class="nav-link" href="#">Contacto</a></nav-link>
+                
+            </ul>
+        </div>
+    </header>
+
+<!-- Swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <main>
+   <p>Contacto:</p>
+    <p>+54 9 11 30494419</p>
+   </main>
+
+<footer class="footer">
+   <div class="cuadro">
+        <div class="uno"><i class="uil uil-print"></i><p>impresiones</p></div>
+        <div class="dos"><i class="uil uil-desert"></i><p>sublimados</p></div>
+        <div class="tres"><i class="uil uil-post-stamp"></i><p>sellos</p></div>
+        <div class="cuatro"><i class="uil uil-vector-square-alt"></i><p>grabados</p></div>
+  </div>
+    
+</footer>
+
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+  </body>
+</html>
