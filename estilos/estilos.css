@@ -75,14 +75,16 @@ main p {
   
   color: orange;
   font-size: 50px;
+  text-shadow: 1px 1px black;
 }
 main {
   
   margin: 0 auto;
-  height: 400px;
+  height: 200px;
   display: flex;
-  flex-direction: column;
-  justify-content:first baseline;
+justify-content: center;
+  align-items: center;
+  overflow-y:auto;
   
 }
 
@@ -95,9 +97,9 @@ body {
 }
 
 .swiper {
-  top: 90px;
+  top: 80px;
   width: 100%;
-  height: 300px;
+  height: 400px;
   max-width: 992px;
 }
 
@@ -194,5 +196,10 @@ body {
   }
   .visible {
     left: 0;
+  }
+  main p {
+    
+    font-size: 35px;
+    
   }
 }
