@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/estilos/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="/js/main.js" defer></script>
+    <title>CgMedia</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav">
+        <div class="logo">
+          <img src="/img/logo.png" alt="" />
+          <p>CgMedia</p>
+        </div>
+        <button class="logo-toggle"><i class="uil uil-bars"></i></button>
+        <ul class="nav-bar">
+          <li class="nav-item">
+            <nav-link><a class="nav-link" href="#">Bio</a></nav-link>
+          </li>
+          <li class="nav-item">
+            <nav-link><a class="nav-link" href="#">Servicios</a></nav-link>
+          </li>
+          <li class="nav-item">
+            <nav-link><a class="nav-link" href="#">Contacto</a></nav-link>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <span class="span">
+        <p>servicios graficos</p>
+      </span>
+      <!-- Swiper 1-->
+      <div class="contenedor">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/img/sellos_Mesa de trabajo 1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/banners_Mesa de trabajo 1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/fondos de prensa_Mesa de trabajo 1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/calcos_Mesa de trabajo 1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <span class="span">
+        <p>letras 3d</p>
+      </span>
+
+      <!-- Swiper 2-->
+      <div class="contenedor">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/img/3d/1.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/3d/2.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/3d/3.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/3d/4.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/3d/5.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/3d/6.webp" alt="" />
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <span class="span">
+        <p>carteleria neon</p>
+      </span>
+    
+
+
+      <!-- Swiper 3-->
+      <div class="contenedor">
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/img/neon/1.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/neon/2.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/neon/3.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/neon/4.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/neon/5.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/neon/6.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/neon/7.webp" alt="" />
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+</main>
+
+    <footer class="footer">
+      <div class="cuadro">
+        <div class="uno">
+          <i class="uil uil-print"></i>
+          <p>impresiones</p>
+        </div>
+        <div class="dos">
+          <i class="uil uil-desert"></i>
+          <p>sublimados</p>
+        </div>
+        <div class="tres">
+          <i class="uil uil-post-stamp"></i>
+          <p>sellos</p>
+        </div>
+        <div class="cuatro">
+          <i class="uil uil-vector-square-alt"></i>
+          <p>grabados</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // var swiper = new Swiper(".mySwiper", {
+      //   cssMode: true,
+      //   slidesPerView: 1,
+      //   spaceBetween: 5,
+      //   loop: true,
+      //   navigation: {
+      //     nextEl: ".swiper-button-next",
+      //     prevEl: ".swiper-button-prev",
+      //   },
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //   },
+      //   mousewheel: true,
+      //   keyboard: true,
+      // });
+
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2100,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiper = new Swiper(".mySwiper2", {
+        spaceBetween: 20,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2200,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiper = new Swiper(".mySwiper3", {
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2300,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
